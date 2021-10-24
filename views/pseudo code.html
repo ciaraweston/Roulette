@@ -1,0 +1,20 @@
+// PSEUDO CODE
+// - wire framing —>
+// how I want the app to look,
+// what I want it to do / how users will interact
+// properties to send to post method
+// - run server
+// - create new collection in MongoDB --> change collection names in code (db.collection('<collectionName>'))
+  // - check connection to my server
+  // - set up front end (inputs, where I want things to be positioned (affects childnodes))
+  //routes
+  // - GET —> how many pages in my app? how many collections?
+  //--> rename res.render('index.ejs', {<collectionName>: result})
+    //--> rename arry inside of index.ejs to <collectionName>[i].length, <collectionName>[i].<property>, etc.
+          // - POST —> form inside of index.ejs -> what inputs / request body information do I want to send to the
+          database?
+          // - PUT —> fetch call through main.js | what am I updating? what identifiers will I use to find that specific
+          document?
+          // --> send identifier information inside of fetch body. every property inside of JSON body request =
+          req.body.<property> in server.js
+            // - DELETE —> fetch call through main.js | what identifiers will I use to find that specific document?
