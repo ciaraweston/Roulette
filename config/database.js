@@ -1,6 +1,6 @@
 // config/database.js
 module.exports = {
 
-    'url': 'mongodb+srv://cweston0727:Testing123!@cluster0.q2ojb.mongodb.net/Project?retryWrites=true&w=majority',
-    'dbName': 'Project'
+    url: 'mongodb+srv://cweston0727:RIpcpqZAFy0W9qQu@cluster0.ahgdx.mongodb.net/gambling?retryWrites=true&w=majority',
+    dbName: 'roulette'
 };
